@@ -55,7 +55,7 @@ Note: The current user must have permission to manage Docker instances. [How to 
 Install the latest version
 
 ``` sh
-cargo install ckb-capsule
+cargo install ckb-capsule --locked
 ```
 
 Install the develop branch
