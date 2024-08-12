@@ -38,14 +38,13 @@ chrono = { version = "0.4.24", default-features = false, features = ["std"] }
 xshell = "=0.2.2"
 path_macro = "1.0.0"
 ckb-sdk = "3.1"
-ckb-testtool = { version = "0.12.0", path = "crates/testtool" }
+ckb-testtool = "0.13"
 
 [build-dependencies]
 includedir_codegen = "0.6"
 
 [workspace]
 members = [
-    "crates/testtool",
     "crates/tests",
 ]
 exclude = ["tmp", "tests/test-contract"]

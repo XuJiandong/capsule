@@ -11,7 +11,6 @@
 Capsule consists of:
 
 - Capsule CLI - Scaffolding tool.
-- [CKB-testtool](https://github.com/nervosnetwork/capsule/tree/develop/crates/testtool) - CKB scripts testing framework.
 
 CKB supports several programming languages for writing scripts, and the language supporting libraries are maintained in the following repositories:
 

@@ -8,5 +8,5 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0"
-ckb-testtool = { path = "../testtool" }
+ckb-testtool = "0.13"
 ckb-system-scripts = "0.5"
