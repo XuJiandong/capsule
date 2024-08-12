@@ -639,7 +639,9 @@ checksum = "d4dc9b70fa7a9ecb0cf285cadab32139c58be9fee08b94e019b15d6b3f5296ef"
 
 [[package]]
 name = "ckb-testtool"
-version = "0.12.0"
+version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "3b635fc26720bc75d363b3f5159574a09b4cc0cc767b02f315ae3abf7333d41d"
 dependencies = [
  "ckb-always-success-script",
  "ckb-chain-spec",
@@ -653,6 +655,7 @@ dependencies = [
  "ckb-traits",
  "ckb-types",
  "ckb-verification",
+ "faster-hex",
  "lazy_static",
  "rand 0.8.5",
 ]
