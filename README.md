@@ -60,7 +60,7 @@ cargo install ckb-capsule --locked
 Install the develop branch
 
 ``` sh
-cargo install ckb-capsule --git https://github.com/nervosnetwork/capsule.git --branch develop
+cargo install ckb-capsule --git https://github.com/nervosnetwork/capsule.git --branch develop --locked
 ```
 
 ## Usage
